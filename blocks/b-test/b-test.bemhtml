@@ -1,0 +1,13 @@
+block b-test {
+
+    js: true
+
+    content: [
+        this.ctx.content,
+        {
+            elem: 'hidden',
+            content: 'Я буду виден только при клике'
+        }
+    ]
+
+}

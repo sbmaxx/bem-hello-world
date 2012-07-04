@@ -1,0 +1,20 @@
+.b-test
+{
+    margin: 20px;
+    padding: 10px;
+
+    border: 1px solid silver;
+}
+
+.b-test__hidden
+{
+    visibility: hidden;
+    background: #fafafa;
+
+    font-size: 36px;
+}
+
+.b-test_clicked_yes .b-test__hidden
+{
+    visibility: visible;
+}
